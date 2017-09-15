@@ -1,1 +1,21 @@
-screen.xml
+ <core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+		controllerName="abap2ui5.InputView" xmlns:html="http://www.w3.org/1999/xhtml"><Page title='Sales Order Status Report'><content>  <Input type="Text" 
+    placeholder="Sales Order No (From Range)" 
+    width="30%" 
+     />  <Label text="To" 
+     />  <Input type="Text" 
+    placeholder="Sales Order No (To Range)" 
+    width="30%" 
+     />  <Text text="" 
+    width="100%" 
+     />  <Input type="Text" 
+    placeholder="another text field" 
+    width="15%" 
+     />  <Text text="" 
+    width="100%" 
+     />  <Button id="id1" 
+    text="Run" 
+    type="Accept" 
+     />  </content>
+	</Page>
+</core:View> 
