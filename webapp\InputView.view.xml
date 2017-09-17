@@ -1,0 +1,21 @@
+ <mvc:View controllerName="com.apps.ui5generatedapp.controller.InputView" xmlns:html="http://www.w3.org/1999/xhtml"
+	xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m"><Page title='Sales Order Status Report'><content>  <Input type="Text" 
+    placeholder="Sales Order No (From Range)" 
+    width="30%" 
+     />  <Label text="To" 
+     />  <Input type="Text" 
+    placeholder="Sales Order No (To Range)" 
+    width="30%" 
+     />  <Text text="" 
+    width="100%" 
+     />  <Input type="Text" 
+    placeholder="another text field" 
+    width="15%" 
+     />  <Text text="" 
+    width="100%" 
+     />  <Button id="id1" 
+    text="Run" 
+    type="Accept" 
+     />  </content>
+	</Page>
+</core:View> 
